@@ -1,0 +1,202 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("../museum/assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Forum";
+    src: url("../museum/assets/fonts/Forum-Regular.ttf");
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Roboto;
+	color: #fff;
+	background: black;
+	min-width: 1440px;
+    /* max-width: 1900px; */
+    margin: 0 auto;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+header {
+    background-color: black;
+    height: 200px;
+    /* max-width: 1900px; */
+    /* margin: 0 auto; */
+}
+.header {
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+.logo {
+    width: 720px;
+    background-image: url("assets/svg/Vector.svg");
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.logo a {
+    padding-left: 70px;
+    text-decoration: none;
+    font-family: Forum;
+    font-size: 28px;
+    line-height: 50px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.nav {
+    width: 720px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav li{
+    list-style: none;
+    width: 144px;
+}
+ul {
+    display: flex;
+}
+.nav a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: lighter;
+    line-height: 50px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+main {
+    /* max-width: 1440px; */
+    margin: 0 auto;
+    background-color: lightblue;
+}
+.welcome-section {
+    /* width: 1900px; */
+    height: 750px;
+    background: #000;
+    margin: 0 auto;
+    background-image: url(assets/img/welcome.jpg);
+    background-position: calc(50% + 375px) 100%;
+    /* background-position: right bottom; */
+    background-repeat: no-repeat;
+
+}
+.welcome {
+    /* width: 1440px;
+    margin: 0 auto; */
+    padding: 120px;
+}
+.section-title-black1 {
+    text-decoration: none;
+    color: #fff;
+    font: 80px forum;
+    text-transform: uppercase;
+}
+.section-title-gold1 {
+    text-decoration: none;
+    color: #9D8665;
+    font: 80px forum;
+    text-transform: uppercase;
+}
+.section-title-black2 {
+    text-decoration: none;
+    color: #fff;
+    font: 80px forum;
+    text-transform: uppercase;
+    border-bottom: 3px #710707 solid;
+}
+.section-title-gold2 {
+    text-decoration: none;
+    color: #9D8665;
+    font: 80px forum;
+    text-transform: uppercase;
+    border-bottom: 3px #710707 solid;
+}
+.welcome p{
+    text-decoration: none;
+    font: 28px Roboto;
+    color: #fff;
+}
+.button-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    width: 360px;
+    background-color: #710707;
+    border-radius: 10px;
+    border: none
+}
+.button-box a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+}
+.visiting-section {
+    /* width: 1900px; */
+    height: 1265px;
+    padding: 75px 0;
+    /* margin: 0 auto; */
+    background-color: #fff;
+}
+.visiting-section h1 {
+    /* width: 1440px;
+    margin: 0 auto; */
+}
+.cards {
+    width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 75px;
+    gap: 60px;
+}
+.cards a {
+    text-decoration: none;
+}
+.cards h2 {
+    text-decoration: none;
+    font-family: Forum;
+    font-size: 32px;
+    letter-spacing: 5px;
+    color: #000;
+    text-transform: uppercase;
+    border-bottom: 2px solid #710707;
+}
+.cards h3 {
+    font-family: Roboto;
+    font-size: 22px;
+    color: #000;
+}
+.cards p {
+    font-family: Roboto;
+    font-size: 18px;
+    color: #000;
+}
+.explore-section {
+    /* width: 1440px;
+    margin: 0 auto; */
+    height: 865px;
+    background-color: #000;
+    padding-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 60px;
+}
+.explore-section-text {
+    width: 660px;
+}
+.explore-section img {
+    width: 720px;
+}
