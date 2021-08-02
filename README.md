@@ -1,2 +1,2 @@
-https://github.com/MirlanM/rsschool-cv
+https://mirlanm.github.io/rsschool-cv/
 # rsschool-cv
