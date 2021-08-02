@@ -1,2 +1,2 @@
-https://mirlanm.github.io/rsschool-cv/
+https://mirlanm.github.io/rsschool-museum/
 # rsschool-cv
